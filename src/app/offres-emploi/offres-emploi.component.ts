@@ -30,6 +30,8 @@ export class OffresEmploiComponent implements OnInit {
   Search(){
     this.listeEmploi= this.listeEmploi.filter((e)=>e.entreprise.match(this.searchText))
     
+    
+    
   
     
   }
